@@ -51,8 +51,18 @@ end
 describe Replacer do
   describe ".add"
     context "Given 'abc'"  do
-      it "returns $bc" do
+      it "returns 6" do
         expect(Replacer.add("abc")).to eql(6)
     end
   end
+end
+
+describe Replacer do
+  describe ".add"
+    context "Given a,b,d" do
+      it "returns 7" do
+        expect(Replacer.add("a,b,d")).to eql(7)
+      end
+    end
+  
 end

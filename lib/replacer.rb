@@ -6,11 +6,7 @@ class Replacer
   def initialize; end
 
   def self.values
-    {
-      'a' => 1,
-      'b' => 2,
-      'c' => 3
-    }
+    Hash[('a'..'z').to_a.zip((1..26).to_a)]
   end
 
   def self.add(input)
