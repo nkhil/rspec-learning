@@ -3,3 +3,5 @@
 # Learning the basics of rspec
 
 Repo for learning and playing around with rspec
+
+Useful beginner's guide: https://semaphoreci.com/community/tutorials/getting-started-with-rspec
